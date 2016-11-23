@@ -1,0 +1,45 @@
+﻿body {
+    background-color:aquamarine
+}
+
+#section {
+
+
+
+}
+
+#section {
+    width: 90%;
+    border: 1px solid green;
+    padding: 1%;
+    margin: 1%;
+}
+
+/*---start-top-nav----*/
+.top-nav{
+	background:#007DAD;
+}
+.top-nav ul li{
+	display:inline-block;
+	float: right;
+	border-left: 1px ridge #1087B4;
+}
+.top-nav ul li:nth-child(1){
+	border:none;
+}
+.top-nav li.active> a, .top-nav li> a:hover {
+	color: #FFF;
+	background:rgba(31, 31, 31, 0.99);
+}	
+.top-nav li a{
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+	color: #FFF;
+	background: #007DAD;
+	text-transform: uppercase;
+	padding: 1em 2em;
+	display: block;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+}
